@@ -1,0 +1,14 @@
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:v1.4.5
+    container_name: homepage
+    ports:
+      - 3000:3000
+    volumes:
+      - ../../data/homepage/config:/app/config
+      - ../../data/homepage/images:/app/images
+    environment:
+      HOMEPAGE_ALLOWED_HOSTS: "*"
+      PUID: 1000
+      PGID: 1000
+    restart: unless-stopped
