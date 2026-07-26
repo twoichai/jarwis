@@ -6,7 +6,7 @@ services:
       - 3000:3000
     volumes:
       - ../../data/homepage/config:/app/config
-      - ../../data/homepage/images:/app/images
+      - ../../data/homepage/images:/app/public/images
     environment:
       HOMEPAGE_ALLOWED_HOSTS: "*"
       PUID: 1000

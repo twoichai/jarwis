@@ -1,0 +1,20 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/bookmarks
+
+- Repositories:
+    - Jarwis Homelab:
+        - icon: github.png
+          href: https://github.com/twoichai/jarwis
+    - K8s the Hard Way:
+        - icon: github.png
+          href: https://github.com/kelseyhightower/kubernetes-the-hard-way
+- Socials:
+    - LinkedIn:
+        - icon: linkedin.png
+          href: https://www.linkedin.com/
+
+- Entertainment:
+    - YouTube:
+        - abbr: YT
+          href: https://youtube.com/

@@ -1,0 +1,18 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings/
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
+
+title: Jarvis Operational Center
+
+background:
+  image: /images/bluvette.png
+  blur: sm 
+  saturate: 50
+  brightness: 50 
+  opacity: 50 
+
+cardBlur: xs

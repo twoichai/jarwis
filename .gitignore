@@ -1,4 +1,7 @@
-data/
+data/*
+!data/homepage/
+!data/homepage/**
+
 backups/
 
 .env

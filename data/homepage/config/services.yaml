@@ -1,0 +1,19 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- Network:
+    - Trinity WiFi:
+        icon: telekom.png
+        href: http://localhost/
+        description: Homepage is awesome
+
+- Infrastructure and Data:
+    - Proxmox:
+        icon: si-proxmox
+        href: http://localhost/
+
+- My Third Group:
+    - My Third Service:
+        href: http://localhost/
+        description: Homepage is 😎
